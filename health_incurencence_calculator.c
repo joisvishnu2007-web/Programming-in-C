@@ -6,8 +6,11 @@ int main(){
     scanf("%d", &age);
     printf("gender (M/F):");
     scanf(" %c",&gender);
-    printf("health(1/0):");
+    printf("health(1 for healthy /0 for unhealthy):");
     scanf(" %d", &health);
+    printf("customer details\n");
+    printf("%d\n",age);
+    printf("gender:%c\n", gender);
     
     if(health==1){
         printf("healthy\n");
@@ -97,4 +100,5 @@ int main(){
         }
     }
  }
+
     
